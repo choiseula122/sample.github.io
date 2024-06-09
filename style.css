@@ -1,0 +1,403 @@
+body{
+    background-color: #3A375B;
+    background-image: url('images/background.png');
+}
+
+
+.frame {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    /* border: 2px dashed red; */
+    color: antiquewhite;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.title h2{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 60px;
+    transition: all 0.5s;
+}
+
+.title h2:hover {
+    opacity: 1;
+    color: #9180be;
+}
+
+.discription p {
+    font-size: 9pt;
+    padding-top: 30px;
+    padding-left: 60px;
+    line-height: 21pt;
+}
+
+
+.constellactions{
+    margin-top: 250px;
+    margin-left: 950px;
+    /* border: 2px dashed blue; */
+}
+
+.constellactions ul {
+    display: inline-block;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.constellactions ul li{
+    /* border: dashed greenyellow; */
+    cursor: pointer;
+    display: inline;
+    padding: 7px 30px;
+}
+
+.background img{
+    position: absolute;
+    opacity:0.5;
+    width: 950px;
+    height: 950px;
+    top: -450px;
+    right: -350px;
+    transition: opacity 1s, transform 20s linear;
+}
+
+.background img:hover {
+    opacity:1;
+    transform: rotate(360deg);
+}
+
+
+/*-------------------------------------COVER*/
+
+.cover img:hover{
+    opacity:1;
+}
+
+.cover1 img{
+    position: absolute;
+    opacity:0;
+    top: 586px;
+    left: 1027px;
+    transition: 0.5s;
+}
+
+.cover2 img{
+    position: absolute;
+    top: 563px;
+    left: 1167px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.cover3 img{
+    position: absolute;
+    top: 558px;
+    left: 1314px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.cover4 img{
+    position: absolute;
+    top: 568px;
+    left: 1479px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.cover5 img{
+    position: absolute;
+    top: 591px;
+    left: 1583px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.cover6 img{
+    position: absolute;
+    top: 540px;
+    left: 1753px;
+    opacity:0;
+    transition: 0.5s;
+}
+/*COVER-------------------------------------*/
+
+/*-------------------------------------COVER-2*/
+
+.cover-2 img:hover{
+    opacity:1;
+}
+
+.cover7 img{
+    position: absolute;
+    opacity:0;
+    top: 760px;
+    left: 1022px;
+    transition: 0.5s;
+}
+
+.cover8 img{
+    position: absolute;
+    top: 762px;
+    left: 1165px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.cover9 img{
+    position: absolute;
+    top: 752px;
+    left: 1305px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.cover10 img{
+    position: absolute;
+    top: 775px;
+    left: 1462px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.cover11 img{
+    position: absolute;
+    top: 740px;
+    left: 1629px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.cover12 img{
+    position: absolute;
+    top: 780px;
+    left: 1736px;
+    opacity:0;
+    transition: 0.5s;
+}
+/*COVER-2-------------------------------------*/
+
+
+
+.name1 ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 1000px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+.name1 ul li{
+    cursor: pointer;
+    display: inline;
+    font-size: 10pt;
+    padding-right: 85px;
+    transition: color 0.5s;
+}
+
+.name1 ul li:hover {
+    color: powderblue;
+}
+
+
+
+.constellactions-2 ul {
+    display: inline-block;
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 950px;
+}
+
+.constellactions-2 ul li{
+    /* border: dashed greenyellow; */
+    cursor: pointer;
+    display: inline;
+    padding: 7px 30px;
+}
+
+.constellactions-2 ul schol{
+    padding-right: 30px;
+}
+
+.name2 ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 975px;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.name2 ul li{
+    cursor: pointer;
+    display: inline;
+    font-size: 10pt;
+    padding-right: 85px;
+    transition: color 0.5s;
+}
+
+.name2 ul li:hover {
+    color: powderblue;
+}
+
+
+
+/*INDEX-------------------------------*/
+
+
+.index1{
+    position:absolute;
+    top: 490px;
+    margin-left:60px;
+    transition: filter 1s;
+
+}
+
+.index1:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index2{
+    position:absolute;
+    top: 560px;
+    margin-left:60px;
+    transition: filter 1s;
+}
+
+.index2:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+
+.index3{
+    position:absolute;
+    top: 630px;
+    margin-left:60px;
+    transition: filter 1s;
+}
+.index3:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index4{
+    position:absolute;
+    top: 700px;
+    margin-left:60px;
+    transition: filter 1s;
+}
+
+.index4:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index5{
+    position:absolute;
+    top: 770px;
+    margin-left:60px;
+    transition: filter 1s;
+}
+
+.index5:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index6{
+    position:absolute;
+    top: 840px;
+    margin-left:60px;
+    transition: filter 1s;
+}
+
+.index6:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index7{
+    position:absolute;
+    top: 490px;
+    margin-left:60px;
+    left: 450px;
+    transition: filter 1s;
+}
+
+.index7:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index8{
+    position:absolute;
+    top: 560px;
+    margin-left:60px;
+    left: 450px;
+    transition: filter 1s;
+}
+
+.index8:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index9{
+    position:absolute;
+    top: 630px;
+    margin-left:60px;
+    left: 450px;
+    transition: filter 1s;
+}
+
+.index9:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index10{
+    position:absolute;
+    top: 700px;
+    margin-left:60px;
+    left: 450px;
+    transition: filter 1s;
+}
+
+.index10:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index11{
+    position:absolute;
+    top: 770px;
+    margin-left:60px;
+    left: 450px;
+    transition: filter 1s;
+}
+
+.index11:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.index12{
+    position:absolute;
+    top: 840px;
+    margin-left:60px;
+    left: 450px;
+    transition: filter 1s;
+}
+
+.index12:hover {
+    filter: invert() hue-rotate(190deg);
+}
+
+.subtitle {
+    position: absolute;
+    font-size: 13pt;
+    padding-left: 62px;
+    top: 422px;
+    transition: all 0.5s;
+}
+
+.subtitle:hover {
+    color: #d9a0ff;
+}
