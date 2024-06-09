@@ -1,0 +1,19 @@
+<svg width="78" height="71" viewBox="0 0 78 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="1.90224" cy="1.90224" r="1.90224" fill="white"/>
+<circle cx="72.4581" cy="56.8944" r="1.90224" fill="white"/>
+<circle cx="75.9166" cy="68.9996" r="1.90224" fill="white"/>
+<line x1="6.69435" y1="4.35695" x2="48.2811" y2="26.8547" stroke="white" stroke-width="0.691723" stroke-linecap="round"/>
+<line x1="58.5831" y1="33.9969" x2="70.312" y2="52.093" stroke="white" stroke-width="0.691723" stroke-linecap="round"/>
+<line x1="74.0879" y1="61.8154" x2="74.6118" y2="63.9112" stroke="white" stroke-width="0.691723" stroke-linecap="round"/>
+<path d="M53.5 25L54.9855 29.0145L59 30.5L54.9855 31.9855L53.5 36L52.0145 31.9855L48 30.5L52.0145 29.0145L53.5 25Z" fill="white"/>
+<circle cx="53.5" cy="30.5" r="8.5" fill="url(#paint0_radial_26_461)"/>
+<defs>
+<radialGradient id="paint0_radial_26_461" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(53.5 30.5) rotate(90) scale(8.5)">
+<stop stop-color="white"/>
+<stop offset="0.350015" stop-color="white" stop-opacity="0.80027"/>
+<stop offset="0.490015" stop-color="white" stop-opacity="0.510483"/>
+<stop offset="0.874517" stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
